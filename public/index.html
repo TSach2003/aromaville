@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aromaville</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+</head>
+<body class="flex flex-col lg:gap-8 bg-[url('./assets/home/images/bg-img.webp')] bg-contain bg-repeat" style="background-size: 40%;">
+    <div class="flex justify-center w-full relative max-h-screen overflow-hidden">
+        <div class="flex flex-col absolute h-full">
+            <!-- Desktop Header -->
+            <div class="lg:flex flex-row w-screen items-center justify-between px-5 md:px-12 lg:px-24 hidden">
+                <img src="./assets/home/icons/logo.svg" alt="aromaville Logo" class="h-11 w-auto hover:scale-105 cursor-pointer">
+                <!-- Nav Links -->
+                <ul class="flex w-full justify-end items-center px-8 mt-3 gap-6">
+                    <li class="flex text-a-desktop text-txt-pri font-heading font-medium hover:scale-105 hover:font-semibold cursor-pointer active:text-primary"><a href="#">Home</a></li>
+                    <li class="flex text-a-desktop text-txt-pri font-heading font-medium hover:scale-105 hover:font-semibold cursor-pointer active:text-primary"><a href="#"></a>About Us</li>
+                    <li class="flex text-a-desktop text-txt-pri font-heading font-medium hover:scale-105 hover:font-semibold cursor-pointer active:text-primary"><a href="#"></a>Menu</li>
+                    <li class="flex text-a-desktop text-txt-pri font-heading font-medium hover:scale-105 hover:font-semibold cursor-pointer active:text-primary"><a href="#"></a>Our Services</li>
+                </ul>
+                <a href="./contact.html"><button class="btn-primary text-a-mobile md:text-a-tablet lg:text-a-desktop font-body text-txt-pri flex items-center mt-3">Contact</button></a>
+            </div>
+            <div class="flex-container flex-col px-5 md:px-12 lg:px-24 h-full gap-4">
+                <h1 class="text-h1-mobile md:text-h1-tablet lg:text-h1-desktop font-heading text-txt-pri text-center">
+                    Discover the Art of<br class="hidden lg:block"/> Coffee<br class="hidden lg:block"/> at aromaville
+                </h1>
+                <p class="text-p-mobile md:text-p-tablet lg:text-p-desktop font-body text-center text-txt-sec">
+                    Indulge in our artisanal, locally-roasted coffee and experience a world of flavors in every cup. Join us for a journey <br class="hidden lg:block"/>through the rich landscapes of coffee culture.
+                </p>
+                <button class="btn-primary text-a-mobile md:text-a-tablet lg:text-a-desktop font-body text-txt-pri flex items-center">Explore Our Menu</button>
+            </div>
+        </div>
+        <img src="./assets/home/images/hero-desktop.webp" alt="hero image" class="w-full h-auto max-h-[100vh] object-cover">
+    </div>
+    <!-- Features -->
+    <div class="flex-container flex-col lg:flex-row lg:items-start gap-5 justify-between md:px-12 lg:px-24">
+        <div class="flex flex-col items-center justify-between lg:w-1/3 md:w-3/5 w-5/6">
+            <img src="./assets/home/icons/features1.svg" alt="image coffee cup" class="w-16 h-16">
+            <div class="flex-container py-0 flex-col">
+                <h4 class="text-h4-mobile md:text-h4-tablet lg:text-h4-desktop font-heading text-txt-pri text-center">
+                    Artisanal<br/>Brews
+                </h4>
+                <p class="text-p-mobile md:text-p-tablet lg:text-p-desktop font-body text-txt-sec text-center">
+                    Experience rich flavors of our small-batch, locally roasted coffee. Each cup is crafted with care for true coffee lovers.
+                </p>
+            </div>
+        </div>
+        <div class="flex flex-col items-center justify-between lg:w-1/3 md:w-3/5 w-5/6">
+            <img src="./assets/home/icons/features2.svg" alt="image coffee machine" class="w-16 h-16">
+            <div class="flex-container py-0 flex-col">
+                <h4 class="text-h4-mobile md:text-h4-tablet lg:text-h4-desktop font-heading text-txt-pri text-center">
+                    Fresh Roasts<br/>Daily
+                </h4>
+                <p class="text-p-mobile md:text-p-tablet lg:text-p-desktop font-body text-txt-sec text-center">
+                    Watch our master roasters transform green beans into aromatic delights. Enjoy the freshest coffee, roasted on-site daily.
+                </p>
+            </div>
+        </div>
+        <div class="flex flex-col items-center justify-between lg:w-1/3 md:w-3/5 w-5/6">
+            <img src="./assets/home/icons/features3.svg" alt="image croissant" class="w-16 h-16">
+            <div class="flex-container py-0 flex-col">
+                <h4 class="text-h4-mobile md:text-h4-tablet lg:text-h4-desktop font-heading text-txt-pri text-center">
+                    Local<br/>Delicacies
+                </h4>
+                <p class="text-p-mobile md:text-p-tablet lg:text-p-desktop font-body text-txt-sec text-center">
+                    Pair your coffee with locally sourced pastries. We partner with the best bakeries to enhance your experience.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- About Section -->
+    <div class="flex-container flex-col-reverse lg:flex-row md:px-12 lg:px-24 gap-5 bg-black">
+        <div class="lg:w-1/2 flex flex-col justify-center items-center gap-6">
+            <h2 class="text-h2-mobile md:text-h2-tablet lg:text-h2-desktop font-heading text-txt-pri text-center">Our Story</h2>
+            <p class="text-p-mobile md:text-p-tablet lg:text-p-desktop font-body text-txt-sec text-center">
+                At Aromaville, we're passionate about crafting exceptional coffee experiences. Founded in 2021, we source the finest beans, roast them with care, and serve them with love. Our cozy space is more than just a coffee shop—it's a community hub where coffee enthusiasts gather to savor, learn, and connect.
+            </p>
+            <button class="btn-primary text-a-mobile md:text-a-tablet lg:text-a-desktop font-body text-txt-pri flex items-center"><a href="./about.html">
+                Learn More
+            </a></button>
+        </div>
+        <div class="lg:w-1/2">
+            <img src="./assets/home/images/about.webp" alt="Image Coffee Cup" class="w-auto h-auto">
+        </div>
+    </div>
+    <!-- Products -->
+    <div class="flex-container flex-wrap flex-row items-start gap-4 justify-center md:px-12 lg:px-24">
+        <div class="flex flex-row flex-wrap items-start justify-center gap-4 md:h-[480px]">
+            <!-- Card 1 -->
+            <div class="flex flex-col justify-between items-center w-full max-w-64 bg-white rounded-[20px] py-4 px-4 h-full hover:scale-105 ">
+                <img src="./assets/home/icons/img-product1.svg" alt="Image Latte" class="w-24 h-24 drop-shadow-xl">
+                <p class="text-a-mobile md:text-a-tablet lg:text-a-desktop text-center font-body font-bold">Aromaville<br/>Signature Latte</p>
+                <p class="text-p-small-mobile md:text-p-small-tablet lg:text-p-small-desktop text-center font-body text-txt-lightGray">Our house specialty. Smooth espresso blended with local honey and a touch of lavender for a uniquely aromatic experience.</p>
+                <ul class="list-disc pl-6 py-3 text-p-small-mobile md:text-p-small-tablet lg:text-p-small-desktop font-body text-txt-darkGray">
+                    <li>Base: Double Shot Espresso</li>
+                    <li>Milk: Whole or oat milk option</li>
+                    <li>Sweetener: Local wildflower honey</li>
+                    <li>Price: $5.75 (12 oz)</li>
+                </ul>
+                <button class="btn-primary text-a-mobile md:text-a-tablet lg:text-a-desktop font-body text-txt-pri text-center lg:w-auto w-full drop-shadow-xl"><a href="./menu.html" class="">View Menu</a></button>
+            </div>
+            <!-- Card 2 -->
+            <div class="flex flex-col justify-between items-center w-full max-w-64 bg-white rounded-[20px] py-4 px-4 h-full hover:scale-105 ">
+                <img src="./assets/home/icons/img-product2.svg" alt="Image Espresso" class="w-24 h-24 drop-shadow-xl">
+                <p class="text-a-mobile md:text-a-tablet lg:text-a-desktop text-center font-body font-bold">Aromaville<br/>
+                    Espresso DoubleShot</p>
+                <p class="text-p-small-mobile md:text-p-small-tablet lg:text-p-small-desktop text-center font-body text-txt-lightGray">Our house specialty. Smooth espresso blended with local honey and a touch of lavender for a uniquely aromatic experience.</p>
+                <ul class="list-disk pl-8 py-3 list-disc text-p-small-mobile md:text-p-small-tablet lg:text-p-small-desktop font-body text-txt-darkGray">
+                    <li>Origin: Yirgacheffe, Ethiopia</li>
+                    <li>Roast Level: Light</li>
+                    <li>Tasting Notes: Jasmine, Lemon, Bergamot</li>
+                    <li>Price: $4.50 per cup</li>
+                </ul>
+                <button class="btn-primary text-a-mobile md:text-a-tablet lg:text-a-desktop font-body text-txt-pri text-center lg:w-auto w-full drop-shadow-xl"><a href="./menu.html">View Menu</a></button>
+            </div>
+        </div>
+        <div class="flex flex-row flex-wrap items-start justify-center gap-4 md:h-[480px]">
+            <!-- Card 3 -->
+            <div class="flex flex-col justify-between items-center w-full max-w-64 bg-white rounded-[20px] py-4 px-4 h-full hover:scale-105 ">
+                <img src="./assets/home/icons/img-product3.svg" alt="Image Mocha" class="w-24 h-24 drop-shadow-xl">
+                <p class="text-a-mobile md:text-a-tablet lg:text-a-desktop text-center font-body font-bold">Aromaville<br/>
+                    Cafe Mocha</p>
+                <p class="text-p-small-mobile md:text-p-small-tablet lg:text-p-small-desktop text-center font-body text-txt-lightGray">Our house specialty. Smooth espresso blended with local honey and a touch of lavender for a uniquely aromatic experience.</p>
+                <ul class="list-disk pl-8 py-3 list-disc text-p-small-mobile md:text-p-small-tablet lg:text-p-small-desktop font-body text-txt-darkGray">
+                    <li>Beans: Colombian and Brazilian blend</li>
+                    <li>Brew Time: 18 hours</li>
+                    <li>Strength: 2.5x regular coffee</li>
+                    <li>Price: $14.99 (32 oz bottle)</li>
+                </ul>
+                <button class="btn-primary text-a-mobile md:text-a-tablet lg:text-a-desktop font-body text-txt-pri text-center lg:w-auto w-full drop-shadow-xl"><a href="./menu.html">View Menu</a></button>
+            </div>
+            <!-- Card 4 -->
+            <div class="flex flex-col justify-between items-center w-full max-w-64 bg-white rounded-[20px] py-4 px-4 h-full hover:scale-105 border-txt-lightGray border-">
+                <img src="./assets/home/icons/img-product4.svg" alt="Image Flat Milk" class="w-24 h-24 drop-shadow-xl">
+                <p class="text-a-mobile md:text-a-tablet lg:text-a-desktop text-center font-body font-bold">Aromaville<br/>
+                    Flat Milk</p>
+                <p class="text-p-small-mobile md:text-p-small-tablet lg:text-p-small-desktop text-center font-body text-txt-lightGray">Our house specialty. Smooth espresso blended with local honey and a touch of lavender for a uniquely aromatic experience.</p>
+                <ul class="list-disk pl-8 py-3 list-disc text-p-small-mobile md:text-p-small-tablet lg:text-p-small-desktop font-body text-txt-darkGray">
+                    <li>Origins: Brazil, Kenya, and Guatemala</li>
+                    <li>Shot Size: 1 oz each</li>
+                    <li>Style: Ristretto, Classic, and Lungo</li>
+                    <li>Price: $8.50 for the flight</li>
+                </ul>
+                <button class="btn-primary text-a-mobile md:text-a-tablet lg:text-a-desktop font-body text-txt-pri text-center lg:w-auto w-full drop-shadow-xl"><a href="./menu.html">View Menu</a></button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
